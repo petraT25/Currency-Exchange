@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+body {
+    background-image: linear-gradient(to right bottom, #ddc5d2, #cfa6bf, #c088ad, #b06a9c, #9e4c8c, #9d4c8e, #9d4c91, #9c4c93, #ae69a7, #bf86bb, #d1a3ce, #e3c0e2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#change {
+    background-color: rgb(255, 225, 0);
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(65, 69, 31);
+}
+
+.currency {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#curr1, #curr2 {
+    height: 2.5rem;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.inputs {
+    margin-top: 0.2rem;
+}
+
+input {
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+label {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#rate {
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+@media only screen and (max-width: 700px) {
+     .currency {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+}
+*/
+
+body {
+    background-image: linear-gradient(to right bottom, #ddc5d2, #cfa6bf, #c088ad, #b06a9c, #9e4c8c, #9d4c8e, #9d4c91, #9c4c93, #ae69a7, #bf86bb, #d1a3ce, #e3c0e2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.currency {
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+}
+
+label {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#curr1, #curr2, input {
+    width: 80%;
+    max-width: 250px;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.container-change {
+    text-align: center;
+}
+
+#change {
+    padding: 0.3rem 0.6rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 225, 0);
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(65, 69, 31);
+    margin-bottom: 1rem;
+    color: #fff;
+
+}
+
+#rate {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 576px) {
+   .container {
+       margin-top: 10%;
+   }
+
+   .inputs {
+       display: flex;
+       flex-direction: row;
+   }
+
+   .currency { 
+       max-width: 500px;
+   }
+
+   #curr1, #curr2 {
+       margin-right: 0.5rem;
+   }
+
+   input {
+       margin-left: 0.5rem;
+       font-size: 1rem;
+   }
+
+   h1 {
+       font-size: 2.5rem;
+       margin-bottom: 0;
+   }
+
+   #change {
+       padding: 0.5rem 1rem;
+       font-size: 1.5rem;
+   }
+
+   #rate {
+       font-size: 1rem;
+       margin-top: 10px;
+   }
+
+   label {
+       margin-left: 0;
+   }
+}
