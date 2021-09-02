@@ -3,110 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*
-body {
-    background-image: linear-gradient(to right bottom, #ddc5d2, #cfa6bf, #c088ad, #b06a9c, #9e4c8c, #9d4c8e, #9d4c91, #9c4c93, #ae69a7, #bf86bb, #d1a3ce, #e3c0e2);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-h1 {
-    color: white;
-    font-size: 2.8rem;
-    margin-bottom: 4rem;
-}
-
-.container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-#change {
-    background-color: rgb(255, 225, 0);
-    padding: 0.5rem 1rem;
-    color: white;
-    font-size: 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem auto;
-    cursor: pointer;
-    box-shadow: 2px 2px rgb(65, 69, 31);
-}
-
-.currency {
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-}
-
-#curr1, #curr2 {
-    height: 2.5rem;
-    border: none;
-    border-radius: 15px;
-    padding: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-
-.inputs {
-    margin-top: 0.2rem;
-}
-
-input {
-    height: 2.5rem;
-    border-radius: 10px;
-    border: none;
-    margin-left: 2rem;
-    padding-left: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-label {
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-#rate {
-    color: #fff;
-    font-weight: 600;
-    
-}
-
-@media only screen and (max-width: 700px) {
-     .currency {
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: center;
-     }
-
-     .inputs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-     }
-}
-*/
 
 body {
     background-image: linear-gradient(to right bottom, #ddc5d2, #cfa6bf, #c088ad, #b06a9c, #9e4c8c, #9d4c8e, #9d4c91, #9c4c93, #ae69a7, #bf86bb, #d1a3ce, #e3c0e2);
@@ -178,7 +74,6 @@ label {
     box-shadow: 1px 1px rgb(65, 69, 31);
     margin-bottom: 1rem;
     color: #fff;
-
 }
 
 #rate {
